@@ -33,7 +33,7 @@
 const faker = require( '../lib/faker.js' ) ;
 
 describe( "Fake data generation tests moved to main roots-db module, use:" , () => {
-	it( "tea-time --opt.fake-data" ) ;
+	it( "tea-time --opt.fake-data-generator faker" ) ;
 	it( "... to run fake data generation tests" ) ;
 } ) ;
 
