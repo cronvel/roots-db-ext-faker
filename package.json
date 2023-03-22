@@ -4,14 +4,14 @@
   "engines": {
     "node": ">=14.15.0"
   },
-  "description": "",
+  "description": "Generate massive amounts of fake contextual data into a RootsDb collection, using faker.js",
   "main": "lib/extension.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "exm": "^0.5.12",
-    "seventh": "^0.8.2"
+    "@faker-js/faker": "^7.6.0",
+    "exm": "^0.5.12"
   },
   "scripts": {
     "test": "tea-time -R dot"
@@ -38,7 +38,7 @@
     }
   },
   "copyright": {
-    "title": "Roots DB fake data generation",
+    "title": "Roots DB Fake Data Generation",
     "years": [
       2023
     ],
