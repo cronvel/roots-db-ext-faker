@@ -1,0 +1,47 @@
+{
+  "name": "roots-db-ext-faker",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=14.15.0"
+  },
+  "description": "",
+  "main": "lib/extension.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "exm": "^0.5.12",
+    "seventh": "^0.8.2"
+  },
+  "scripts": {
+    "test": "tea-time -R dot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cronvel/roots-db-ext-faker.git"
+  },
+  "keywords": [
+    "roots-db",
+    "fake",
+    "faker"
+  ],
+  "author": "Cédric Ronvel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cronvel/roots-db-ext-faker/issues"
+  },
+  "config": {
+    "tea-time": {
+      "coverDir": [
+        "lib"
+      ]
+    }
+  },
+  "copyright": {
+    "title": "Roots DB fake data generation",
+    "years": [
+      2023
+    ],
+    "owner": "Cédric Ronvel"
+  }
+}
