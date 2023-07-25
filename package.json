@@ -2,7 +2,7 @@
   "name": "roots-db-ext-faker",
   "version": "0.1.1",
   "engines": {
-    "node": ">=14.15.0"
+    "node": ">=14.17.0"
   },
   "description": "Generate massive amounts of fake contextual data into a RootsDb collection, using faker.js",
   "main": "lib/extension.js",
